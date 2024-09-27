@@ -189,7 +189,7 @@ footer {
     }
 
     .phone-box {
-        width: 100%;
+        width: 80%;
         justify-content: center;
         margin-top: 20px; /* Ensure phone box is visible and not hidden */
     }
