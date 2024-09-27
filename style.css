@@ -145,7 +145,7 @@ footer {
         flex-direction: row; /* Ensure the nav items are in a row */
     }
     header img.logo {
-        top: 125%; /* Adjust to position the logo half on the line */
+        top: 119%; /* Adjust to position the logo half on the line */
         width:23%;
         margin-left: 38%;
     }
