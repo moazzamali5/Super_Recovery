@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Recovery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="./563B68B6-DAEE-47E6-8913-F0BC4BB68D25.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./563B68B6-DAEE-47E6-8913-F0BC4BB68D25.jpeg" alt="Logo" class="logo">
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <div class="nav-links">
+                <span class="close-icon" onclick="toggleMenu()">&times;</span> <!-- Close button -->
+
+                <a href="#home">Home</a>
+                <a href="#address">Address</a>
+                <a href="#contact">Contact</a>
+                <div class="phone-box">
+                    <i class="fa fa-phone"></i>
+                    <a href="tel:+447389107534">447389107534</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <img src="./banner.jpg" class="banner">
+    <div class="additional-content">
+        <h2 class="gradient-heading">24 Hour Emergency Vehicle Recovery</h2>
+        <p>If you need breakdown assistance around Nottinghamshire, we are the ones to call. It can be a very stressful situation if you have mechanical problems and need some roadside assistance. We also provide breakdown service.</p>
+        <div class="service-icons">
+            <div>
+                <i class="icon-insured"></i>
+                <img src="./car-insurance.png" style="width:50%">
+                <p>Fully Insured</p>
+            </div>
+            <div>
+                <i class="icon-staff"></i>
+                <img src="./settings.png" style="width:50%">
+                <p>Highly Trained Staff</p>
+            </div>
+            <div>
+                <i class="icon-prices"></i>
+                <img src="./pound-1.png" style="width:50%">
+                <p>Competitive Prices</p>
+            </div>
+            <div>
+                <i class="icon-service"></i>
+                <img src="./24-hours-1.png" style="width:50%">
+                <p>24 Hour Service</p>
+            </div>
+        </div>
+        <p>We use state-of-the-art tow trucks and years of experience in the towing industry to deliver clean, damage-free towing services offering the comfort and peace of mind you deserve. We can cater for any vehicle up to five tonnes. Contact us today for fast and reliable vehicle breakdown recovery in Nottingham and surrounding areas!</p>
+        <a href="https://wa.me/447389107534" class="call-link">Click here to call</a>
+    </div>
+    
+    
+
+    <main>
+        <section id="services">
+            <div class="additional-content">
+                <h2 class="gradient-heading services">Our Services</h2>
+                <div class="service-icons">
+                    <div>
+                        <i class="icon-insured"></i>
+                        <img src="./breakdown.jpeg" style="width:50%">
+                        <p>Breakdown Recovery</p>
+                    </div>
+                    <div>
+                        <i class="icon-staff"></i>
+                        <img src="./jumpstart-a-car.png" style="width:50%">
+                        <p>Jump Starts</p>
+                    </div>
+                    <div>
+                        <i class="icon-prices"></i>
+                        <img src="./Ditch-Recovery.png" style="width:50%">
+                        <p>Ditch Recovery</p>
+                    </div>
+                    <div>
+                        <i class="icon-service"></i>
+                        <img src="./car-crash-accident-side-impact-illustration-concept-in-cartoon-vector.jpg" style="width:50%">
+                        <p>Accident Recovery</p>
+                    </div>
+                </div>
+                <div class="rescue-icon">
+                    <div>
+                        <i class="icon-rescue"></i>
+                        <img src="./rescue.jpg" style="width:60%">
+                        <p>Road-Side Help and Rescue</p>
+                    </div>
+                </div>
+                <a href="https://wa.me/447389107534" class="call-link">Click here to call</a>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>Contact us at: <a href="mailto:info@superrecovery.com" class="mail">info@superrecovery.com</a></p>
+        <p id="address">Address: 123 Recovery Lane, Tow City</p>
+    </footer>
+
+    <a href="https://wa.me/447389107534" class="whatsapp-icon">
+        <img src="./whatsapp-logo-1-3214700720.png" alt="WhatsApp">
+    </a>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                navLinks.classList.remove('active'); // Close menu after clicking a link
+            });
+        });
+    </script>
+</body>
+</html>
