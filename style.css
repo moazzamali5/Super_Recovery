@@ -204,7 +204,7 @@ footer {
 .gradient-heading {
     font-size: 45px;
     font-weight: 900;
-    background: linear-gradient(to bottom, skyblue, black); /* Gradient from darker yellow to lighter yellow */
+    background: linear-gradient(to bottom, skyblue, skyblue); /* Gradient from darker yellow to lighter yellow */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
