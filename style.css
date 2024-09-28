@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: black;
     color: #333;
 }
 
@@ -196,7 +196,7 @@ footer {
     }
 }
 .additional-content {
-    background-color: #f4f4f4;
+    background-color: black;
     padding: 20px;
     text-align: center;
 }
